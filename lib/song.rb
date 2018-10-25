@@ -46,7 +46,7 @@ class Song
     file = self.new
     spl = fname.split(/(.mp3)+|\-/)
     file.name = spl[1]
-    file.artist_name = split[0]
+    file.artist_name = spl[0]
   end
 
 end
