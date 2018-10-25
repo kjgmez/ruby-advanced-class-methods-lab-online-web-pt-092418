@@ -46,7 +46,6 @@ class Song
     file = self.new
     file.name = fname.split("-", 3)
     file
-    puts "la"
   end
 
 end
