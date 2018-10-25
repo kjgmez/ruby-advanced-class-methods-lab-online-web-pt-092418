@@ -46,7 +46,6 @@ class Song
     file = self.new
     file.name = fname.split(/[-.]/)[1].strip
     file.artist_name = fname.split(/[-.]/)[0].strip
-    file
   end
 
 end
