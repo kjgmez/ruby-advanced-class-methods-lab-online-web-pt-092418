@@ -48,6 +48,7 @@ class Song
     file.name = splt[1]
     file.artist_name = splt[0]
     file.save
+    file
   end
 
 end
