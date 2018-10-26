@@ -50,7 +50,7 @@ class Song
     file
   end
 
-  def self.create_from_filename(fname)  
+  def self.create_from_filename(fname)
     file = self.new
     splt = fname.split(/(.mp3)+|\-/)
     file.name = splt[1].strip
@@ -58,4 +58,7 @@ class Song
     file.save
     file
   end
+
+  def self.destroy_all
+    self.all.clear
 end
